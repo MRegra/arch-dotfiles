@@ -1,0 +1,19 @@
+configuration {
+	modi: "";
+	icon-theme: "Adwaita";
+	show-icons: true;
+	terminal: "alacritty";
+	drun-display-format: "{icon} {name}";
+	location: 0;
+	disable-history: false;
+	sort: true;
+	drun-use-desktop-cache: true;
+	matching: "fuzzy";
+	hide-scrollbar: true;
+	display-combi: "Search";
+	display-run: "Search";
+	display-window: "Search";
+	sidebar-mode: true;
+}
+
+@theme "~/.config/rofi/themes/mregra.rasi"

@@ -1,0 +1,112 @@
+* {
+    bg-col: #242424E6;
+    bg-col-light: #636363C1;
+    selected-col: #636363C1;
+    blue: #8caaeeC1;
+    fg-col: #c6d0f5C1;
+    fg-col2: #e78284C1;
+    grey: #737994C1;
+    
+    width: 100%;
+    font: "System San Francisco Display 22";
+}
+
+element-text, element-icon , mode-switcher {
+    background-color: transparent;
+    text-color:       inherit;
+}
+
+window {
+    location: center;
+    height: 100%;
+    padding: 35% 35% 20% 35%;
+    background-color: @bg-col;
+}
+
+mainbox {
+    background-color: transparent;
+}
+
+inputbar { 
+    children: [prompt,entry];
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+prompt {
+    background-color: transparent;
+    padding: 6px;
+    text-color: #ffffff;
+    border-radius: 3px;
+    margin: 20px -10px 0px 20px;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: ":";
+    background-color: transparent;
+}
+
+entry {
+    padding: 6px;
+    margin: 20px 0px 0px 10px;
+    text-color: @fg-col;
+    background-color: transparent;
+}
+
+listview {
+    border: 0px 0px 0px;
+    padding: 6px 0px 0px;
+    margin: 10px 0px 0px 20px;
+    columns: 1;
+    lines: 5;
+    background-color: transparent;
+}
+
+element {
+    padding: 5px;
+    background-color: transparent;
+    text-color: @fg-col  ;
+}
+
+element-icon {
+    size: 35px;
+    background-color: transparent;
+}
+
+element selected {
+    background-color: @selected-col;
+    text-color: @fg-col2  ;
+}
+
+mode-switcher {
+    spacing: 0;
+}
+
+button {
+    padding: 10px;
+    background-color: transparent;
+    text-color: transparent;
+    vertical-align: 0.5; 
+    horizontal-align: 0.5;
+}
+
+button selected {
+    background-color: transparent;
+    text-color: transparent;
+}
+
+message {
+    background-color: transparent;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+textbox {
+    padding: 6px;
+    margin: 20px 0px 0px 20px;
+    text-color: @blue;
+    background-color: transparent;
+}
